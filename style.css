@@ -1,0 +1,1239 @@
+/* ============================================================
+   CYBERSHIELD PROFESSIONAL UI
+   ============================================================ */
+
+
+/* ============================================================
+   APPLICATION
+   ============================================================ */
+
+.stApp {
+    background:
+        radial-gradient(
+            circle at top right,
+            rgba(37, 99, 235, 0.10),
+            transparent 30%
+        ),
+        #080d18;
+
+    color: #e5e7eb;
+}
+
+
+.block-container {
+    max-width: 1400px;
+    padding-top: 1.5rem;
+    padding-bottom: 3rem;
+}
+
+
+/* ============================================================
+   HEADER
+   ============================================================ */
+
+.cyber-header {
+
+    background:
+        linear-gradient(
+            135deg,
+            #111827,
+            #0f1b35
+        );
+
+    border: 1px solid #263553;
+
+    border-radius: 18px;
+
+    padding: 24px 28px;
+
+    margin-bottom: 18px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    box-shadow:
+        0 12px 35px rgba(0, 0, 0, 0.28);
+}
+
+
+.header-left {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 16px;
+}
+
+
+.shield-logo {
+
+    width: 56px;
+
+    height: 56px;
+
+    border-radius: 14px;
+
+    background: #172554;
+
+    border: 1px solid #31528c;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-size: 30px;
+}
+
+
+.main-title {
+
+    font-size: 32px;
+
+    font-weight: 800;
+
+    color: #f8fafc;
+
+    letter-spacing: -0.5px;
+}
+
+
+.main-subtitle {
+
+    margin-top: 3px;
+
+    color: #94a3b8;
+
+    font-size: 14px;
+}
+
+
+.header-security {
+
+    background: #052e1b;
+
+    border: 1px solid #047857;
+
+    color: #a7f3d0;
+
+    border-radius: 20px;
+
+    padding: 8px 14px;
+
+    font-size: 12px;
+
+    font-weight: 700;
+
+    letter-spacing: 0.5px;
+}
+
+
+.online-dot {
+
+    display: inline-block;
+
+    width: 8px;
+
+    height: 8px;
+
+    border-radius: 50%;
+
+    background: #34d399;
+
+    margin-right: 7px;
+}
+
+
+/* ============================================================
+   SECURITY BANNER
+   ============================================================ */
+
+.security-banner {
+
+    background:
+        linear-gradient(
+            90deg,
+            #062e22,
+            #064e3b
+        );
+
+    border: 1px solid #087f5b;
+
+    border-radius: 15px;
+
+    min-height: 75px;
+
+    padding: 15px 20px;
+
+    margin-bottom: 25px;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 15px;
+
+    box-shadow:
+        0 8px 22px rgba(0, 0, 0, 0.20);
+}
+
+
+.security-icon {
+
+    width: 46px;
+
+    height: 46px;
+
+    border-radius: 12px;
+
+    background: rgba(255, 255, 255, 0.08);
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-size: 24px;
+}
+
+
+.security-content {
+
+    flex: 1;
+}
+
+
+.security-title {
+
+    color: #d1fae5;
+
+    font-size: 16px;
+
+    font-weight: 700;
+}
+
+
+.security-description {
+
+    color: #a7f3d0;
+
+    font-size: 13px;
+
+    margin-top: 3px;
+}
+
+
+.security-status {
+
+    background: #047857;
+
+    color: white;
+
+    border-radius: 20px;
+
+    padding: 7px 14px;
+
+    font-size: 11px;
+
+    font-weight: 800;
+
+    letter-spacing: 0.7px;
+}
+
+
+/* ============================================================
+   SECTION HEADINGS
+   ============================================================ */
+
+.section-heading {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+
+    margin-top: 12px;
+
+    margin-bottom: 17px;
+}
+
+
+.section-icon {
+
+    width: 42px;
+
+    height: 42px;
+
+    border-radius: 11px;
+
+    background: #111c31;
+
+    border: 1px solid #263553;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-size: 20px;
+}
+
+
+.section-title {
+
+    font-size: 22px;
+
+    font-weight: 750;
+
+    color: #f8fafc;
+}
+
+
+.section-description {
+
+    color: #8290a5;
+
+    font-size: 13px;
+
+    margin-top: 3px;
+}
+
+
+/* ============================================================
+   DASHBOARD CARDS
+   ============================================================ */
+
+.dashboard-card {
+
+    background: #101827;
+
+    border: 1px solid #263553;
+
+    border-radius: 15px;
+
+    padding: 20px;
+
+    min-height: 125px;
+
+    box-shadow:
+        0 7px 20px rgba(0, 0, 0, 0.20);
+
+    transition:
+        transform 0.2s ease,
+        border-color 0.2s ease;
+}
+
+
+.dashboard-card:hover {
+
+    transform: translateY(-2px);
+
+    border-color: #3b82f6;
+}
+
+
+.card-top {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+}
+
+
+.card-icon {
+
+    font-size: 17px;
+}
+
+
+.card-label {
+
+    color: #94a3b8;
+
+    font-size: 11px;
+
+    font-weight: 800;
+
+    letter-spacing: 0.8px;
+}
+
+
+.card-value {
+
+    color: #f8fafc;
+
+    font-size: 34px;
+
+    font-weight: 800;
+
+    margin-top: 11px;
+}
+
+
+.card-description {
+
+    color: #64748b;
+
+    font-size: 12px;
+
+    margin-top: 3px;
+}
+
+
+.total-card {
+
+    border-top: 3px solid #3b82f6;
+}
+
+
+.safe-card {
+
+    border-top: 3px solid #10b981;
+}
+
+
+.modified-card {
+
+    border-top: 3px solid #ef4444;
+}
+
+
+.missing-card {
+
+    border-top: 3px solid #f97316;
+}
+
+
+/* ============================================================
+   STREAMLIT CONTAINERS
+   ============================================================ */
+
+[data-testid="stVerticalBlockBorderWrapper"] {
+
+    background: #0f1726;
+
+    border-color: #263553 !important;
+
+    border-radius: 15px !important;
+
+    padding: 5px !important;
+
+}
+
+
+/* ============================================================
+   BUTTONS
+   ============================================================ */
+
+.stButton > button {
+
+    min-height: 43px;
+
+    border-radius: 9px;
+
+    font-weight: 700;
+
+    border: 1px solid #334155;
+
+    background: #162033;
+
+    color: #e2e8f0;
+
+    transition:
+        background 0.2s ease,
+        border-color 0.2s ease,
+        transform 0.2s ease;
+}
+
+
+.stButton > button:hover {
+
+    background: #1d2b44;
+
+    border-color: #3b82f6;
+
+    color: #ffffff;
+
+    transform: translateY(-1px);
+}
+
+
+button[kind="primary"] {
+
+    background: #2563eb !important;
+
+    border-color: #3b82f6 !important;
+
+    color: white !important;
+}
+
+
+button[kind="primary"]:hover {
+
+    background: #1d4ed8 !important;
+
+    border-color: #60a5fa !important;
+}
+
+
+/* ============================================================
+   FILE UPLOADER
+   ============================================================ */
+
+[data-testid="stFileUploader"] {
+
+    background: #0b1220;
+
+    border: 1px dashed #3b4c68;
+
+    border-radius: 12px;
+
+    padding: 8px;
+}
+
+
+[data-testid="stFileUploader"]:hover {
+
+    border-color: #3b82f6;
+}
+
+
+/* ============================================================
+   SELECTED FILE
+   ============================================================ */
+
+.selected-file {
+
+    background: #0b1628;
+
+    border: 1px solid #263b5e;
+
+    border-radius: 12px;
+
+    padding: 13px 16px;
+
+    margin-top: 12px;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+}
+
+
+.selected-file-icon {
+
+    font-size: 25px;
+}
+
+
+.selected-file-name {
+
+    color: #e2e8f0;
+
+    font-weight: 700;
+
+    font-size: 14px;
+}
+
+
+.selected-file-info {
+
+    color: #64748b;
+
+    font-size: 12px;
+
+    margin-top: 3px;
+}
+
+
+/* ============================================================
+   HASH PANEL
+   ============================================================ */
+
+.hash-panel {
+
+    background: #020617;
+
+    border: 1px solid #263b5e;
+
+    border-radius: 12px;
+
+    padding: 16px;
+
+    margin-top: 12px;
+}
+
+
+.hash-title {
+
+    color: #93c5fd;
+
+    font-size: 13px;
+
+    font-weight: 700;
+
+    margin-bottom: 9px;
+}
+
+
+.hash-value {
+
+    background: #020617;
+
+    border: 1px solid #243247;
+
+    border-radius: 8px;
+
+    padding: 11px;
+
+    color: #a5b4fc;
+
+    font-family: monospace;
+
+    font-size: 11px;
+
+    line-height: 1.6;
+
+    word-break: break-all;
+}
+
+
+/* ============================================================
+   SCANNER
+   ============================================================ */
+
+.scanner-panel {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 15px;
+
+    background: #0b1628;
+
+    border: 1px solid #243957;
+
+    border-radius: 12px;
+
+    padding: 17px;
+
+    margin-bottom: 15px;
+}
+
+
+.scanner-icon {
+
+    width: 45px;
+
+    height: 45px;
+
+    border-radius: 11px;
+
+    background: #172554;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-size: 22px;
+}
+
+
+.scanner-title {
+
+    color: #e2e8f0;
+
+    font-weight: 700;
+
+    font-size: 14px;
+}
+
+
+.scanner-description {
+
+    color: #64748b;
+
+    font-size: 12px;
+
+    margin-top: 4px;
+}
+
+
+/* ============================================================
+   ACTIVITY CARDS
+   ============================================================ */
+
+.activity-card {
+
+    background: #0f1726;
+
+    border: 1px solid #202f46;
+
+    border-radius: 11px;
+
+    padding: 13px 16px;
+
+    margin-bottom: 8px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 15px;
+}
+
+
+.activity-main {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 13px;
+}
+
+
+.activity-number {
+
+    color: #64748b;
+
+    font-family: monospace;
+
+    font-size: 12px;
+
+    min-width: 35px;
+}
+
+
+.activity-information {
+
+    min-width: 0;
+}
+
+
+.activity-title {
+
+    color: #e2e8f0;
+
+    font-size: 13px;
+
+    font-weight: 650;
+}
+
+
+.activity-details {
+
+    color: #64748b;
+
+    font-size: 11px;
+
+    margin-top: 4px;
+}
+
+
+/* ============================================================
+   STATUS BADGES
+   ============================================================ */
+
+.status-safe,
+.status-modified,
+.status-missing,
+.status-registered,
+.status-neutral {
+
+    display: inline-block;
+
+    border-radius: 18px;
+
+    padding: 6px 12px;
+
+    font-size: 11px;
+
+    font-weight: 750;
+
+    white-space: nowrap;
+}
+
+
+.status-safe {
+
+    background: #052e1b;
+
+    border: 1px solid #047857;
+
+    color: #a7f3d0;
+}
+
+
+.status-modified {
+
+    background: #450a0a;
+
+    border: 1px solid #b91c1c;
+
+    color: #fecaca;
+}
+
+
+.status-missing {
+
+    background: #431407;
+
+    border: 1px solid #c2410c;
+
+    color: #fed7aa;
+}
+
+
+.status-registered {
+
+    background: #172033;
+
+    border: 1px solid #475569;
+
+    color: #cbd5e1;
+}
+
+
+.status-neutral {
+
+    background: #172033;
+
+    border: 1px solid #475569;
+
+    color: #cbd5e1;
+}
+
+
+/* ============================================================
+   SCAN HISTORY
+   ============================================================ */
+
+.history-card {
+
+    background: #0f1726;
+
+    border: 1px solid #202f46;
+
+    border-radius: 11px;
+
+    padding: 14px 16px;
+
+    margin-bottom: 8px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+}
+
+
+.history-left {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 13px;
+}
+
+
+.history-icon {
+
+    width: 37px;
+
+    height: 37px;
+
+    border-radius: 9px;
+
+    background: #111c31;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+}
+
+
+.history-file {
+
+    color: #e2e8f0;
+
+    font-weight: 650;
+
+    font-size: 13px;
+}
+
+
+.history-time {
+
+    color: #64748b;
+
+    font-size: 11px;
+
+    margin-top: 3px;
+}
+
+
+/* ============================================================
+   REGISTERED FILE CARDS
+   ============================================================ */
+
+.registered-file-card {
+
+    background:
+        linear-gradient(
+            135deg,
+            #101827,
+            #0d1523
+        );
+
+    border: 1px solid #263553;
+
+    border-radius: 15px;
+
+    padding: 20px;
+
+    margin-bottom: 8px;
+
+    box-shadow:
+        0 7px 20px rgba(0, 0, 0, 0.18);
+}
+
+
+.registered-header {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 15px;
+
+    margin-bottom: 18px;
+}
+
+
+.registered-file-name {
+
+    color: #f1f5f9;
+
+    font-size: 17px;
+
+    font-weight: 750;
+}
+
+
+.file-information-grid {
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 15px;
+
+    margin-bottom: 16px;
+}
+
+
+.file-information {
+
+    background: #0b1220;
+
+    border: 1px solid #1e2b40;
+
+    border-radius: 9px;
+
+    padding: 10px 12px;
+}
+
+
+.information-label {
+
+    color: #64748b;
+
+    font-size: 9px;
+
+    font-weight: 800;
+
+    letter-spacing: 0.8px;
+
+    margin-bottom: 5px;
+}
+
+
+.information-value {
+
+    color: #cbd5e1;
+
+    font-size: 12px;
+}
+
+
+.path-value {
+
+    background: #0b1220;
+
+    border: 1px solid #1e2b40;
+
+    border-radius: 8px;
+
+    padding: 10px;
+
+    color: #94a3b8;
+
+    font-family: monospace;
+
+    font-size: 11px;
+
+    word-break: break-all;
+
+    margin-bottom: 15px;
+}
+
+
+/* ============================================================
+   PROGRESS BAR
+   ============================================================ */
+
+[data-testid="stProgressBar"] {
+
+    margin-top: 10px;
+
+    margin-bottom: 10px;
+}
+
+
+/* ============================================================
+   METRICS
+   ============================================================ */
+
+[data-testid="stMetric"] {
+
+    background: #101827;
+
+    border: 1px solid #263553;
+
+    border-radius: 12px;
+
+    padding: 15px;
+}
+
+
+[data-testid="stMetricLabel"] {
+
+    color: #94a3b8 !important;
+}
+
+
+[data-testid="stMetricValue"] {
+
+    color: #f8fafc !important;
+}
+
+
+/* ============================================================
+   ALERTS
+   ============================================================ */
+
+[data-testid="stAlert"] {
+
+    border-radius: 10px;
+}
+
+
+/* ============================================================
+   DIVIDERS
+   ============================================================ */
+
+hr {
+
+    border-color: #1c2a3e !important;
+
+    margin-top: 28px;
+
+    margin-bottom: 28px;
+}
+
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+
+.cyber-footer {
+
+    text-align: center;
+
+    padding: 30px 10px 10px;
+
+    margin-top: 30px;
+
+    border-top: 1px solid #1c2a3e;
+}
+
+
+.footer-logo {
+
+    color: #cbd5e1;
+
+    font-size: 16px;
+
+    font-weight: 750;
+}
+
+
+.footer-text {
+
+    color: #64748b;
+
+    font-size: 12px;
+
+    margin-top: 5px;
+}
+
+
+.footer-tech {
+
+    color: #475569;
+
+    font-size: 11px;
+
+    margin-top: 8px;
+}
+
+
+.footer-line {
+
+    color: #334155;
+
+    font-size: 10px;
+
+    margin-top: 12px;
+}
+
+
+/* ============================================================
+   HIDE STREAMLIT DEFAULT ELEMENTS
+   ============================================================ */
+
+#MainMenu {
+
+    visibility: hidden;
+}
+
+
+footer {
+
+    visibility: hidden;
+}
+
+
+/* ============================================================
+   RESPONSIVE DESIGN
+   ============================================================ */
+
+@media (max-width: 800px) {
+
+    .cyber-header {
+
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        gap: 15px;
+    }
+
+
+    .header-security {
+
+        align-self: flex-start;
+    }
+
+
+    .main-title {
+
+        font-size: 27px;
+    }
+
+
+    .file-information-grid {
+
+        grid-template-columns: 1fr;
+    }
+
+
+    .registered-header {
+
+        align-items: flex-start;
+
+        flex-direction: column;
+    }
+
+
+    .activity-card {
+
+        align-items: flex-start;
+
+        flex-direction: column;
+    }
+
+
+    .history-card {
+
+        align-items: flex-start;
+
+        flex-direction: column;
+
+        gap: 10px;
+    }
+
+}
+
+/* ============================================================
+   REFRESH INFORMATION
+   ============================================================ */
+
+.refresh-info {
+
+    background: #0f1726;
+
+    border: 1px solid #263553;
+
+    border-radius: 9px;
+
+    padding: 10px 14px;
+
+    color: #64748b;
+
+    font-size: 12px;
+
+    margin-bottom: 15px;
+}
+
+
+.refresh-info strong {
+
+    color: #94a3b8;
+
+    font-weight: 700;
+}
