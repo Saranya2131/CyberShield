@@ -1,3 +1,4 @@
+import os
 import sqlite3
 from datetime import datetime
 
@@ -6,7 +7,19 @@ from datetime import datetime
 # DATABASE CONFIGURATION
 # ==========================================
 
-DATABASE_NAME = "database/integrity.db"
+BASE_DIR = os.path.dirname(
+    os.path.abspath(__file__)
+)
+
+DATABASE_FOLDER = os.path.join(
+    BASE_DIR,
+    "database"
+)
+
+DATABASE_NAME = os.path.join(
+    DATABASE_FOLDER,
+    "integrity.db"
+)
 
 
 # ==========================================
@@ -16,7 +29,15 @@ DATABASE_NAME = "database/integrity.db"
 def connect_database():
     """Connect to the SQLite database."""
 
-    return sqlite3.connect(DATABASE_NAME)
+    # Create database folder if it does not exist
+    os.makedirs(
+        DATABASE_FOLDER,
+        exist_ok=True
+    )
+
+    return sqlite3.connect(
+        DATABASE_NAME
+    )
 
 
 # ==========================================
